@@ -7,32 +7,33 @@
 
 .container-form input{
     color: rgba(0, 0, 0, 0.71);
-    font-size: 20px;    
+    font-size: var(--font-md);    
 }
 
 .subtitle-form {
-    font-size: 24px;
-    font-weight: 700;
+    font-size: var(--font-lg);
+    font-weight: var(--bold);
     letter-spacing: -0.015em;
     margin-bottom: 1.3rem;
 }
 
 .policies {
     color: rgba(0, 0, 0, 0.56);
-    font-size: 14px;
-    font-weight: 400;
+    font-size: var(--font-sm);
+    font-weight: var(--regular);
     letter-spacing: 0.05em;
     margin-top: 2rem;
     padding: 0 1.1rem;
     text-align: center;    
 }
 
+/* contact us */
 .container-form.contact {
     margin-top: 0;
     border: none;
 }
 
 label.form-label {
-    font-weight: 700;
-    font-size: 20px;
+    font-weight: var(--bold);
+    font-size: var(--font-md);
 }

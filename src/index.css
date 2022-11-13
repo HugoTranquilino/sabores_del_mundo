@@ -5,6 +5,12 @@
   --primary-green: #4AAB28;
   --secondary-green: rgba(113, 182, 25, 0.28);;
   --background-color: #E4F0D4;
+  --font-sm: 14px;
+  --font-md: 20px;
+  --font-lg: 24px;
+  --regular: 400;
+  --medium: 500;
+  --bold: 700;
 }
 
 body {
@@ -12,17 +18,22 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+button.btn.btn-success {
+  background: var(--primary-green);
+  border: none;
+}
+
 .title{
+  color: var(--primary-green);
   font-weight: 700;
   font-size: 5rem;
   margin: 4rem 0;
-  text-align: center;
-  color: var(--primary-green);
+  text-align: center;  
 }
 
 .banner-image {
-  width: 100%;
   background-color: var(--secondary-green);
-  padding: 1rem;
   border-radius: 20rem;
+  padding: 1rem;
+  width: 100%;
 }
