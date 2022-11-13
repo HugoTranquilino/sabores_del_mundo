@@ -4,8 +4,9 @@ import { Menu } from "../components/Menu";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import { Footer } from "../components/Footer";
+// import { Footer } from "../components/Footer";
 import { Banner } from "../components/Banner";
+import '../styles/form.css'
 
 function Login(){
     return(
@@ -18,7 +19,7 @@ function Login(){
                     <Col><Banner/></Col>
                 </Row>
             </Container>
-            <Footer/>
+            {/* <Footer/> */}
         </React.Fragment>
     );
 }

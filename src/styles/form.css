@@ -1,0 +1,38 @@
+/* form account */
+.container-form {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 3rem;
+    margin-top: 3rem;
+}
+
+.container-form input{
+    color: rgba(0, 0, 0, 0.71);
+    font-size: 20px;    
+}
+
+.subtitle-form {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -0.015em;
+    margin-bottom: 1.3rem;
+}
+
+.policies {
+    color: rgba(0, 0, 0, 0.56);
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    margin-top: 2rem;
+    padding: 0 1.1rem;
+    text-align: center;    
+}
+
+.container-form.contact {
+    margin-top: 0;
+    border: none;
+}
+
+label.form-label {
+    font-weight: 700;
+    font-size: 20px;
+}

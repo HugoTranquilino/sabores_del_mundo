@@ -1,0 +1,9 @@
+span.navbar-brand {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+a.nav-link {
+    font-size: 20px;
+    font-weight: 500;
+}
