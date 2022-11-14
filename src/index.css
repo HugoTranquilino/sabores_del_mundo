@@ -53,6 +53,7 @@ button.btn.btn-success {
 }
 
 .footer p {
+  color: rgba(0, 0, 0, 0.47);
   font-size: var(--font-md);
   font-weight: var(--bold);
   position: absolute;
