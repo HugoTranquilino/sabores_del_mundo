@@ -5,9 +5,9 @@
   --primary-green: #4AAB28;
   --secondary-green: rgba(113, 182, 25, 0.28);;
   --background-color: #E4F0D4;
-  --font-sm: 14px;
-  --font-md: 20px;
-  --font-lg: 24px;
+  --font-sm: 1rem;
+  --font-md: 1.2rem;
+  --font-lg: 1.4rem;
   --regular: 400;
   --medium: 500;
   --bold: 700;
@@ -31,9 +31,31 @@ button.btn.btn-success {
   text-align: center;  
 }
 
+.banner{
+  padding: 1rem;
+}
+
 .banner-image {
   background-color: var(--secondary-green);
   border-radius: 20rem;
   padding: 1rem;
   width: 100%;
+}
+
+/* footer */
+.footer {
+  background-color: var(--secondary-green);
+  border-bottom: 1rem solid var(--primary-green);
+  margin: 3rem 0 0 0;
+  padding: 0;
+  position: relative;
+  height: 20vh;
+}
+
+.footer p {
+  font-size: var(--font-md);
+  font-weight: var(--bold);
+  position: absolute;
+  bottom: 0;
+  margin-left: 2rem;
 }

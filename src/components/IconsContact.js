@@ -1,4 +1,5 @@
 import React from "react";
+import { Col, Row } from "react-bootstrap";
 import location from '../image/location2.svg'
 import message from '../image/message.svg'
 import phone from '../image/phone.svg'
@@ -7,32 +8,40 @@ import '../styles/iconograpic.css'
 
 function IconsContact(){
     return(
-        <div className="contact-icons">
-            <div className="iconography">
-                <div className="iconography-icon_section">
-                    <img src={location} alt=""/>
+        <Row className="contact-icons">
+            <Col xs={12} md={3}>
+                <div className="iconography">
+                    <div className="iconography-icon_section">
+                        <img src={location} alt=""/>
+                    </div>
+                    <label>Address: <span>198 West 21th Street, Suite 721 New York NY 10016</span></label>
                 </div>
-                <label>Address: <span>198 West 21th Street, <br/>Suite 721 New York NY 10016</span></label>
-            </div>
-            <div className="iconography">
-                <div className="iconography-icon_section">
-                    <img src={phone} alt=""/> 
+            </Col>
+            <Col xs={12} md={3}>
+                <div className="iconography">
+                    <div className="iconography-icon_section">
+                        <img src={phone} alt=""/> 
+                    </div>
+                    <label>Phone: <span>+ 1235 2355 98</span></label>
                 </div>
-                <label>Phone: <span>+ 1235 2355 98</span></label>
-            </div>
-            <div className="iconography">
-                <div className="iconography-icon_section">
-                    <img src={message} alt=""/>
+            </Col>
+            <Col xs={12} md={3}>
+                <div className="iconography">
+                    <div className="iconography-icon_section">
+                        <img src={message} alt=""/>
+                    </div>
+                    <label>Email: <span>info@yoursite.com</span></label>
                 </div>
-                <label>Email: <span>info@yoursite.com</span></label>
-            </div>
-            <div className="iconography">
-                <div className="iconography-icon_section">
-                    <img src={planet} alt=""/>
+            </Col>
+            <Col xs={12} md={3}>
+                <div className="iconography">
+                    <div className="iconography-icon_section">
+                        <img src={planet} alt=""/>
+                    </div>
+                    <label>Website: <span>yoursite.com</span></label>
                 </div>
-                <label>Website: <span>yoursite.com</span></label>
-            </div>
-        </div>
+            </Col>
+        </Row>
     );
 }
 

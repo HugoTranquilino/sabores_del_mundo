@@ -28,6 +28,12 @@
 }
 
 /* contact us */
+.contact-section{
+    box-shadow: 3px 2px 40px 1px rgba(79,74,74,0.81);
+    -webkit-box-shadow: 3px 2px 40px 1px rgba(79,74,74,0.81);
+    -moz-box-shadow: 3px 2px 40px 1px rgba(79,74,74,0.81); 
+}
+
 .container-form.contact {
     margin-top: 0;
     border: none;
@@ -36,4 +42,11 @@
 label.form-label {
     font-weight: var(--bold);
     font-size: var(--font-md);
+}
+
+
+@media (max-width: 575.98px) {
+    .contact-section {
+        margin: 1rem;
+    }
 }

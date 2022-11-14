@@ -1,4 +1,5 @@
 import React from "react";
+import { Col, Row } from "react-bootstrap";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -9,12 +10,18 @@ function Menu() {
     return(
         <Navbar>
             <Container>
-                <Navbar.Brand to={`/login/`}>Flavors of the world</Navbar.Brand>
-                <Nav className="me-auto">
-                <Nav.Link to={`/login/`}>Inicio</Nav.Link>
-                <Nav.Link to={`/explore/`}>Explorar</Nav.Link>
-                <Nav.Link to={`/contact/`}>Contacto</Nav.Link>
-                </Nav>
+                <Row className="menu">
+                    <Col xs={12} md={8}>
+                        <Navbar.Brand to={`/login/`}>Flavors of the world</Navbar.Brand>
+                    </Col>
+                    <Col xs={12} md={4}>
+                        <Nav className="me-auto menu-nav">
+                            <Nav.Link href={`/login/`}>Inicio</Nav.Link>
+                            <Nav.Link href={`/`}>Explorar</Nav.Link>
+                            <Nav.Link href={`/contact/`}>Contacto</Nav.Link>
+                        </Nav>
+                    </Col>
+                </Row>
             </Container>
         </Navbar>
     );
