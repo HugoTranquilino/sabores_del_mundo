@@ -10,6 +10,13 @@
     font-size: var(--font-md);    
 }
 
+.container-form input:focus {
+    border: 1px solid var(--primary-green);
+    box-shadow: 3px 2px 40px -13px rgba(74,171,40,0.81);
+    -webkit-box-shadow: 3px 2px 40px -13px rgba(74,171,40,0.81);
+    -moz-box-shadow: 3px 2px 40px -13px rgba(74,171,40,0.81);
+}
+
 .subtitle-form {
     font-size: var(--font-lg);
     font-weight: var(--bold);
