@@ -39,6 +39,25 @@
     border: none;
 }
 
+.container-form.contact input{
+    border: none;
+    border-bottom: 1px solid;
+    border-radius: 0;
+}
+.container-form.contact input:focus{
+    box-shadow:0px 1px 0px 0px;
+}
+
+.container-form.contact textarea {
+    border: none;
+    border-bottom: 1px solid;
+    border-radius: 0;
+}
+
+.container-form.contact textarea:focus {
+    box-shadow:0px 1px 0px 0px;
+}
+
 label.form-label {
     font-weight: var(--bold);
     font-size: var(--font-md);

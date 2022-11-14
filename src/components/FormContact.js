@@ -29,7 +29,7 @@ function FormContact(){
                             <Form.Control
                                 required
                                 type="text"
-                                placeholder="Full name"
+                                placeholder="Name"
                             />
                             <Form.Control.Feedback type="invalid">
                                 Please provide your name.
