@@ -22,7 +22,7 @@ function IconsContact(){
                     <div className="iconography-icon_section">
                         <img src={phone} alt=""/> 
                     </div>
-                    <label>Phone: <span>+ 1235 2355 98</span></label>
+                    <label>Phone: <span className="item">+ 1235 2355 98</span></label>
                 </div>
             </Col>
             <Col xs={12} md={3}>
@@ -30,7 +30,7 @@ function IconsContact(){
                     <div className="iconography-icon_section">
                         <img src={message} alt=""/>
                     </div>
-                    <label>Email: <span>info@yoursite.com</span></label>
+                    <label>Email: <span className="item">info@yoursite.com</span></label>
                 </div>
             </Col>
             <Col xs={12} md={3}>
@@ -38,7 +38,7 @@ function IconsContact(){
                     <div className="iconography-icon_section">
                         <img src={planet} alt=""/>
                     </div>
-                    <label>Website: <span>yoursite.com</span></label>
+                    <label>Website: <span className="item">yoursite.com</span></label>
                 </div>
             </Col>
         </Row>

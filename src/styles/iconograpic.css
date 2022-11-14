@@ -21,6 +21,10 @@
     font-weight: var(--regular);
 }
 
+.item{
+    color: var(--primary-green);
+}
+
 .iconography-icon_section {
     background-color: var(--primary-green);
     width: 50px;
