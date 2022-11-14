@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import '../styles/menu.css'
-// import logo from '../image/Logo.svg'
+import logo from '../image/Logo.svg'
 
 function Menu() {
     return(
@@ -12,7 +12,10 @@ function Menu() {
             <Container>
                 <Row className="menu">
                     <Col xs={12} md={8}>
-                        <Navbar.Brand to={`/login/`}>Flavors of the world</Navbar.Brand>
+                        <Navbar.Brand to={`/login/`}>
+                            <img className="logo" src={logo} alt=""/>
+                            Flavors of the world
+                        </Navbar.Brand>
                     </Col>
                     <Col xs={12} md={4}>
                         <Nav className="me-auto menu-nav">

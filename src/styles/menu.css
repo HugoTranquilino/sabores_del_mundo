@@ -18,3 +18,7 @@ a.nav-link {
     display: flex;
     justify-content: space-between;
 }
+
+.logo {
+    padding: 0.5rem;
+}

@@ -1,9 +1,9 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import location from '../image/location2.svg'
+import location from '../image/location.svg'
 import message from '../image/message.svg'
 import phone from '../image/phone.svg'
-import planet from '../image/planet.svg'
+import planet from '../image/world.svg'
 import '../styles/iconograpic.css'
 
 function IconsContact(){
